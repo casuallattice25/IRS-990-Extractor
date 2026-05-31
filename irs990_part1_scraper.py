@@ -10,7 +10,7 @@ import requests
  
 # ------------------------------------------------------------------ CONFIG ----
 EINS = [
-    "562613389",   # <-- replace with your target EIN(s). Leading zeros OK. Current is HMC Asia. 
+    "843118937",   # <-- replace with your target EIN(s). Leading zeros OK. Current is Student Orgs of HLS. 
 ]
  
 OUTPUT_CSV          = "irs990_part1.csv"
