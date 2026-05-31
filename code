@@ -10,13 +10,13 @@ import requests
  
 # ------------------------------------------------------------------ CONFIG ----
 EINS = [
-    "042103580",   # <-- replace with your target EIN(s). Leading zeros OK.
+    "562613389",   # <-- replace with your target EIN(s). Leading zeros OK. Current is HMC Asia. 
 ]
  
 OUTPUT_CSV          = "irs990_part1.csv"
  
 # Google Sheets output (set WRITE_TO_SHEETS=False to only produce the CSV)
-WRITE_TO_SHEETS     = True
+WRITE_TO_SHEETS     = False
 GOOGLE_SHEET_NAME   = "IRS 990 Part I"          # an existing Sheet you own/shared
 GOOGLE_WORKSHEET    = "data"
 GSPREAD_CREDS_JSON  = "service_account.json"     # path to your service-account key
